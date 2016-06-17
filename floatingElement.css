@@ -1,0 +1,33 @@
+#floatMe {
+	width: 100px;
+	position: relative;
+	left: -200px;
+	top: 20%;	
+	animation-name: bob;
+    animation-duration: 10s;
+	float: left;	
+}
+
+div {
+	background-color: orange;
+	width: 200px;
+	height: 200px;
+	padding: 100px;
+	margin: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "comic san-serif"; 
+}
+
+@keyframes example {
+   from {left: -100px}
+    to {left: calc(100% + 100px)}
+}
+
+
+@keyframes example2 {
+   from {left: 110%}
+    to {left: -100px}
+}
